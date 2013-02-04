@@ -39,6 +39,8 @@
 
 all: seq omp cuda mpi
 
+nocuda: seq omp mpi
+
 DFLAGS      =
 OPTFLAGS    = -O -NDEBUG
 OPTFLAGS    = -g -pg
